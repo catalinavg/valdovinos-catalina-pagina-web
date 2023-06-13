@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css de la libería -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
+    <link rel="stylesheet" href="estcarru.css">
+    <title>Carrusel</title>
+</head>
+<body>
+    <h1>CLIENTES</h1>
+    <p center>nuestros clientes son felices con kat closet por que con kat closet's 
+        <br>todo es mas comodo ven y prueba nuestra ropa tenemos diferentes </br>
+        <br>tallas no importa tu talla tenemos de todo tipo para ti y tus gustos.</p></br>
+
+    <audio controls>
+        <source src="A_Cinematic_Fashion_Film__Canon_R3__Film_Emulation.mp3" type="audio/mp3">
+    </audio>
+    <!-- Estas dos son clases de la libería -->
+    <div class="gallery js-flickity"
+        data-flickity-options = '{"wrapAround":true}'> <!-- Sirve para que las fotos puedan deslizarse desde la primera a la ultima y de la ultima a la primera -->
+        <div class="gallery-cell">
+            <img src="img/fondo5.jpg" alt="">
+        </div>
+        <div class="gallery-cell">
+            <img src="img/imagen1.jpg" alt="">
+        </div>
+        <div class="gallery-cell">
+            <img src="img/holita.jpg" alt="">
+        </div>
+        <div class="gallery-cell">
+            <img src="img/imagen4.png" alt="">
+        </div>
+        <div class="gallery-cell">
+            <img src="img/abajo.jpg" alt="">
+        
+        </div>
+        
+    </div>
+    
+    <!-- script de la libería -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"> </script>    
+    
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Slider con HTML y CSS</title>
+    <link rel="stylesheet" type="text/css" href="carru2.css"/>
+</head>
+
+<body>
+
+    <div id="kiko-slider">
+
+        <ul class="slider">
+            <li id="slide1">
+
+                <img src="./img/carru2.jpg" />
+            </li>
+            <li id="slide2">
+                <img src="./img/carru1.jpg" />
+            </li>
+            <li id="slide3">
+                <img src="./img/carru3.jpg" />
+            </li>
+        </ul>
+
+        <ul class="menu">
+            <li>
+                <a href="#slide1">1</a>
+            </li>
+            <li>
+                <a href="#slide2">2</a>
+            </li>
+            <li>
+                <a href="#slide3">3</a>
+            </li>
+        </ul>
+
+    </div>
+
+    <div style="display: none;">
+    </div>
+
+</body>
+
+</html>
